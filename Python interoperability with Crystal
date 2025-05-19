@@ -1,0 +1,6 @@
+Crystal
+require"http/client"
+require"json"
+client=HTTP::Client.new("localhost",8545)
+payload={
+"jsonrpc":"2.0"
